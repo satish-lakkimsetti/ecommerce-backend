@@ -34,8 +34,8 @@ This is a lightweight Node.js + Express backend for managing products and orders
 1. **Clone the repository and install dependencies:**
 
    ```
-   git clone <your-repo-url>
-   cd <project-folder>
+   git clone https://github.com/satish-lakkimsetti/ecommerce-backend.git
+   cd ecommerce-backend
    npm install
    ```
 
