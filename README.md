@@ -17,6 +17,7 @@ This is a lightweight Node.js + Express backend for managing products and orders
 
 ## 📁 Folder Structure
 
+.
 ├── data/               # products.csv, orders.csv  
 ├── jobs/               # loadProducts.js, loadOrders.js  
 ├── models/             # Mongoose schemas  
