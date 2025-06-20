@@ -141,3 +141,7 @@ Built by Satish Lakkimsetti — backend dev with a passion for clean APIs, secur
 ✅ Fully functional  
 🔒 Secure with schema validation  
 🧠 Ready for deployment or demo
+
+📚 **Looking for more details?**  
+Check out the [project Wiki](../../wiki) for a deeper dive into API usage, CSV loaders, architecture, and more.
+
