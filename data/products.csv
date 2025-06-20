@@ -1,0 +1,5 @@
+productId,name,description,price,category,inStock
+PROD001,Wireless Mouse,Ergonomic wireless mouse,799,Electronics,true
+PROD002,Keyboard,Mechanical keyboard with backlight,1599,Electronics,true
+PROD003,Notebook,Hardcover ruled notebook,299,Stationery,true
+PROD004,Coffee Mug,Ceramic mug with quote,399,Home,false

@@ -1,0 +1,4 @@
+orderId,customerName,products,totalAmount,paymentStatus
+ORD001,Lucky,"[{""productId"":""PROD001"",""quantity"":2}]",1598,Paid
+ORD002,Sneha,"[{""productId"":""PROD002"",""quantity"":1},{""productId"":""PROD003"",""quantity"":3}]",2496,Paid
+ORD003,Kiran,"[{""productId"":""PROD004"",""quantity"":1}]",399,Pending
