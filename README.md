@@ -1,23 +1,23 @@
-# 🛒 E-commerce Backend API
+# E-commerce Backend API
 
 This is a lightweight Node.js + Express backend for managing products and orders, complete with CSV ingestion scripts, robust error handling, and a modular architecture built with MongoDB and Mongoose.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ✅ RESTful APIs for products and orders  
-- ✅ CSV ingestion using custom loader scripts  
-- ✅ MongoDB with Mongoose models  
-- ✅ Express middleware for error handling  
-- ✅ Fully tested with Postman  
-- ✅ Project ready for portfolio/demo use  
+- RESTful APIs for products and orders  
+- CSV ingestion using custom loader scripts  
+- MongoDB with Mongoose models  
+- Express middleware for error handling  
+- Fully tested with Postman  
+- Project ready for portfolio/demo use  
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
-
+```
 ├── data/               # products.csv, orders.csv  
 ├── jobs/               # loadProducts.js, loadOrders.js  
 ├── models/             # Mongoose schemas  
@@ -27,10 +27,11 @@ This is a lightweight Node.js + Express backend for managing products and orders
 ├── index.js            # Server entry point  
 ├── .env.example        # Environment variable sample  
 ├── .gitignore          # Git exclusions  
+```
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository and install dependencies:**
 
@@ -63,21 +64,21 @@ This is a lightweight Node.js + Express backend for managing products and orders
 
 ---
 
-## 📦 API Endpoints
+## API Endpoints
 
-| Method | Endpoint         | Description                 |
-|--------|------------------|-----------------------------|
-| GET    | `/`              | Health check                |
-| GET    | `/products`      | Get all products            |
-| POST   | `/products`      | Create a new product        |
-| GET    | `/orders`        | Get all orders              |
-| POST   | `/orders`        | Create a new order          |
+| Method | Endpoint         | Description          |
+|--------|------------------|----------------------|
+| GET    | `/`              | Health check         |
+| GET    | `/products`      | Get all products     |
+| POST   | `/products`      | Create a new product |
+| GET    | `/orders`        | Get all orders       |
+| POST   | `/orders`        | Create a new order   |
 
 > All endpoints expect and return JSON.
 
 ---
 
-## 🧪 Sample Product POST Body
+## Sample Product POST Body
 
 ```json
 {
@@ -92,7 +93,7 @@ This is a lightweight Node.js + Express backend for managing products and orders
 
 ---
 
-## 📌 Scripts
+## Scripts
 
 ```json
 "scripts": {
@@ -106,7 +107,7 @@ Use these to run your server or load CSV seed data directly.
 
 ---
 
-## 👨‍💻 Tech Stack
+## Tech Stack
 
 - Node.js  
 - Express  
@@ -118,7 +119,7 @@ Use these to run your server or load CSV seed data directly.
 
 ---
 
-## 📂 Environment Variables
+## Environment Variables
 
 Your `.env` file should include:
 
@@ -131,18 +132,19 @@ Reference `.env.example` for structure.
 
 ---
 
-## 💬 Author
+## Author
 
 Built by Satish Lakkimsetti, a backend dev with a passion for clean APIs, secure data flow, and real-world architecture.
 
 ---
 
-## ✅ Status
+## Status
 
-✅ Fully functional  
-🔒 Secure with schema validation  
-🧠 Ready for deployment or demo
+- Fully functional  
+- Secure with schema validation  
+- Ready for deployment or demo
 
-📚 **Looking for more details?**  
+**Looking for more details?**  
 Check out the [project Wiki](../../wiki) for a deeper dive into API usage, CSV loaders, architecture, and more.
 
+---
