@@ -133,7 +133,7 @@ Reference `.env.example` for structure.
 
 ## 💬 Author
 
-Built by Satish Lakkimsetti — backend dev with a passion for clean APIs, secure data flow, and real-world architecture.
+Built by Satish Lakkimsetti, a backend dev with a passion for clean APIs, secure data flow, and real-world architecture.
 
 ---
 
